@@ -1,2 +1,4 @@
-# frontend-library
-WIP: Version 2 of the frontend library, application non-specific.
+# NHS.UK Frontend Library (Alpha)
+*WIP*
+
+Version 2 of the frontend library, application non-specific.

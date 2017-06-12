@@ -1,5 +1,21 @@
-
 {% extends "base.html" %}
 {% block content %}
-{% include "components/callouts.html" %}
+<h1>Component Library</h1>
+<p>The component library for NHS.UK frontend</p>
+<ul>
+  <li><a href="#local-header">Local Header</a></li>
+  <li><a href="#button">Button</a></li>
+  <li><a href="#callout">Callout</a></li>
+  <li><a href="#reveal">Reveal</a></li>
+  <li><a href="#grid">Grid</a></li>
+</ul>
+{% include "components/local-header.html" %}
+<hr />
+{% include "components/button.html" %}
+<hr />
+{% include "components/callout.html" %}
+<hr />
+{% include "components/reveal.html" %}
+<hr />
+{% include "components/grid.html" %}
 {% endblock %}

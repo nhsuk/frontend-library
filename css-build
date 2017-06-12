@@ -1,0 +1,7 @@
+#!/bin/sh
+
+OUTPUT_STYLE=${1:-compressed}
+
+echo "node-sass with output-style of ${OUTPUT_STYLE}"
+
+node-sass --output-style "${OUTPUT_STYLE}" --include-path src/scss src/scss/nhsuk.scss src/assets/css/nhsuk.css;

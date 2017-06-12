@@ -1,7 +1,31 @@
-@import "environment/generic";
+@import "normalize.css/normalize";
+@import "environment/settings";
 @import "environment/settings";
 @import "environment/tools";
+@import "environment/generic";
 
-@import "objects";
 @import "units";
-@import "components";
+@import "objects";
+
+@import "components/global-header";
+@import "components/global-footer";
+@import "components/notification-banner";
+@import "components/skiplinks";
+@import "components/local-header";
+@import "components/button";
+@import "components/link-list";
+
+// NHS.UK components
+@import "components/article-pagination";
+@import "components/callout";
+@import "components/media";
+@import "components/gallery";
+@import "components/form-label";
+@import "components/form-textbox";
+@import "components/form-multiple-choice";
+@import "components/inline-list";
+@import "components/meta";
+@import "components/panel";
+@import "components/step-list";
+@import "components/tabs";
+@import "components/error";

@@ -5,7 +5,7 @@
   "scripts": {
     "build-css": "./css-build",
     "start": "node app.js",
-    "start-watch": "nodemon app.js & nodemon -e scss -x npm run build-css -- compact"
+    "start-watch": "nodemon app.js & nodemon -e scss -x yarn build-css -- compact"
   },
   "dependencies": {
     "body-parser": "^1.10.0",

@@ -3,13 +3,9 @@
 
 Version 2 of the frontend library, application non-specific.
 
-## Install required dependencies
+## Working with the repo
 
-`npm install`
-
-## Launch the app:
-
-`node ./bin/www`
+Clone the repo `git clone https://github.com/nhsuk/frontend-library.git` and have a look at the [selection](scripts/README.md) of [scripts](scripts) to get started with running the application.
 
 ## Architecture Decision Records
 

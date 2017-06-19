@@ -1,11 +1,40 @@
-@import "normalize.css/normalize";
-@import "environment/settings";
-@import "environment/settings";
-@import "environment/tools";
-@import "environment/generic";
+@import "normalize";
+@import "environment/tools/mixins/addons";
 
-@import "units";
-@import "objects";
+@import "environment/generic/border-box";
+@import "environment/generic/reset";
+@import "environment/generic/shared";
+@import "environment/generic/utilities";
+
+@import "environment/settings/colours";
+@import "environment/settings/fonts";
+@import "environment/settings/globals";
+@import "environment/settings/layout";
+@import "environment/settings/typography";
+
+@import "environment/tools/functions/colour";
+@import "environment/tools/functions/typography";
+
+@import "environment/tools/mixins/button";
+@import "environment/tools/mixins/conditionals";
+@import "environment/tools/mixins/layout";
+@import "environment/tools/mixins/typography";
+
+@import "objects/grid";
+@import "objects/page-section";
+
+@import "units/details";
+@import "units/figure";
+@import "units/form";
+@import "units/heading";
+@import "units/hr";
+@import "units/image";
+@import "units/inline";
+@import "units/link";
+@import "units/list";
+@import "units/paragraph";
+@import "units/quote";
+@import "units/table";
 
 @import "components/global-header";
 @import "components/global-footer";

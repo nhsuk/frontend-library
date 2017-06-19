@@ -1,9 +1,4 @@
-// PRINT STYLESHEET COMPILER
-// sass-lint:disable no-important
-
 $is-print: true;
-
-@import "./environment";
 
 // units
 @import "./units/image";

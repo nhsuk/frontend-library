@@ -1,5 +1,3 @@
-@import "../environment/tools/mixins";
-
 .link-list__row {
   @include grid-row;
 }

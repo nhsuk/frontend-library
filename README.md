@@ -3,10 +3,13 @@
 
 Version 2 of the frontend library, application non-specific.
 
-## Install required dependencies
+## Working with the repo
 
-`npm install`
+Clone the repo `git clone https://github.com/nhsuk/frontend-library.git` and have a look at the [selection](scripts/README.md) of [scripts](scripts) to get started with running the application.
 
-## Launch the app:
+## Architecture Decision Records
 
-`node ./bin/www`
+This repo uses
+[Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
+to record architectural decisions for this project.
+They are stored in [doc/architecture/decisions](doc/architecture/decisions).

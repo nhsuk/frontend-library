@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build-css": "./css-build",
-    "start": "node ./bin/www & nodemon -e scss -x run build-css -- compact"
+    "start": "node app.js",
+    "start-watch": "nodemon app.js & nodemon -e scss -x yarn build-css -- compact"
   },
   "dependencies": {
     "body-parser": "^1.10.0",
@@ -14,7 +15,11 @@
     "morgan": "^1.5.0",
     "node-sass": "^4.5.3",
     "node-sass-import-once": "^1.2.0",
+    "normalize-scss": "^7.0.0",
     "nunjucks": "*",
     "serve-favicon": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

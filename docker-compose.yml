@@ -17,7 +17,7 @@ services:
     extends:
       service: base-app
     ports:
-      - 4000:4000
+      - 3000:3000
     volumes:
       - code-node_modules:/code/node_modules
 

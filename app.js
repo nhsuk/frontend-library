@@ -9,13 +9,14 @@ var routes = require('./routes/index');
 
 var app = express();
 
-//Nunjucks setup
-nunjucks.configure(['views', 'src/templates'], {
-	autoescape: true,
-	express: app,
-	watch: true,
-});
+app.set('views', path.normalize(`${__dirname}/src/views`));
 app.set('view engine', 'nunjucks');
+
+nunjucks.configure(path.normalize(`${__dirname}/src/views`), {
+  autoescape: true,
+  express: app,
+  watch: true,
+});
 
 // Routes setup
 app.use('/', routes);
@@ -30,9 +31,9 @@ app.use(express.static(path.join(__dirname, 'src')));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
 // error handlers
@@ -42,7 +43,7 @@ app.use(function(req, res, next) {
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
-        res.render('error', {
+        res.render('error.html', {
             message: err.message,
             error: err
         });
@@ -53,7 +54,7 @@ if (app.get('env') === 'development') {
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
-    res.render('error', {
+    res.render('error.html', {
         message: err.message,
         error: {}
     });

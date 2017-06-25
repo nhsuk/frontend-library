@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res) {
-        res.render('index.html', {
-        title : "Sample Node Express + Nunjucks app"
-        });
+router.get('/', (req, res) => {
+  console.log('HIT');
+  res.render('index.html', {
+    title : "Sample Node Express + Nunjucks app"
+  });
 });
 
 module.exports = router;

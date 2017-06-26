@@ -14,4 +14,4 @@ Links to a repo containing the base development machine setup.
 Installs the project's direct dependencies e.g. npm packages.
 
 [`start`](start)
-Starts the application on port [4000](http://localhost:4000).
+Starts the application on port [3000](http://localhost:3000).

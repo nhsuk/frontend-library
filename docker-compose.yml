@@ -1,0 +1,25 @@
+version: '2.1'
+
+services:
+
+  base-app:
+    build:
+      context: .
+      args:
+        NODE_ENV: development
+    command: yarn run start-watch
+    volumes:
+      - .:/code
+    environment:
+      NODE_ENV: ${NODE_ENV-development}
+
+  frontend-library:
+    extends:
+      service: base-app
+    ports:
+      - 3000:3000
+    volumes:
+      - code-node_modules:/code/node_modules
+
+volumes:
+  code-node_modules:

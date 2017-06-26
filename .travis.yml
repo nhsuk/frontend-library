@@ -5,5 +5,8 @@ node_js:
 services:
   - docker
 
+script:
+  - yarn lint
+
 after_success:
   - bash ./scripts/ci-deployment/deploy.sh

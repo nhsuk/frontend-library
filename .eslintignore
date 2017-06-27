@@ -1,4 +1,2 @@
 coverage/
-src/assets/js/modules/*
-src/assets/js/vendor/*
-src/assets/js/nhsuk.js
+vendor/

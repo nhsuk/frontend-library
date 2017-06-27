@@ -7,6 +7,3 @@ services:
 
 script:
   - yarn lint
-
-after_success:
-  - bash ./scripts/ci-deployment/deploy.sh

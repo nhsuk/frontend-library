@@ -23,7 +23,6 @@
     "nhsuk-bunyan-logger": "^1.4.0",
     "node-sass": "^4.5.3",
     "normalize-scss": "^7.0.0",
-    "nunjucks-brunch": "^0.3.3",
     "sass-brunch": "^2.10.4"
   }
 }

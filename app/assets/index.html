@@ -13,7 +13,11 @@
     <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
     <link rel="icon" href="images/favicon.png">
 
-    <link rel="stylesheet" href="nhsuk.css" media="screen" type="text/css">
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="nhsuk.css" media="screen" type="text/css"><!--<![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" href="nhsuk-ie6.css" media="screen" type="text/css"><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="nhsuk-ie7.css" media="screen" type="text/css"><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" href="nhsuk-ie8.css" media="screen" type="text/css"><![endif]-->
+    <link rel="stylesheet" href="nhsuk-print.css" media="print" type="text/css">
 
     <script>
         (function(d) {

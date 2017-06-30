@@ -30,7 +30,7 @@
   }
 
   &:before {
-    background: url("../../assets/images/logotype-nhs-colour.png") no-repeat;
+    background: url("images/logotype-nhs-colour.png") no-repeat;
     background-size: contain;
     content: "";
     display: block;
@@ -44,7 +44,7 @@
     }
 
     @media(min-resolution: 192dpi) {
-      background-image: url("../../assets/images/logotype-nhs-colour@2x.png");
+      background-image: url("images/logotype-nhs-colour@2x.png");
       background-size: 79px 32px;
     }
   }

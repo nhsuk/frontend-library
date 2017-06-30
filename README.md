@@ -1,5 +1,6 @@
 # NHS.UK Frontend Library (Alpha)
-`WIP`
+
+[![Build Status](https://travis-ci.org/nhsuk/frontend-library.svg?branch=master)](https://travis-ci.org/nhsuk/frontend-library)
 
 Version 2 of the frontend library, application non-specific.
 

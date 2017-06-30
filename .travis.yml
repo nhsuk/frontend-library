@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - node
+
+before_script:
+  - yarn lint
+
+script:
+  - yarn build-production
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master

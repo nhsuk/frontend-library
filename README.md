@@ -18,7 +18,8 @@ The site is updated automatically by [Travis CI](https://travis-ci.org/) via
 [GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/).
 The deployment happens when a change is made to `master`. `master` is a
 protected branch and changes are only able to be applied via a reviewed Pull
-Request.
+Request. The deployment to the GitHub Pages site uploads all artefacts in
+`./public` to the `gh-pages` branch. This is configured in `.travis.yml`.
 
 ## Install
 
@@ -35,4 +36,4 @@ Request.
 This repo uses
 [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
 to record architectural decisions for this project.
-They are stored in [doc/architecture/decisions](doc/architecture/decisions).
+They are stored in [doc/adr](doc/adr).

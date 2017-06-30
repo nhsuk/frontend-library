@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "build": "yarn brunch -- build",
-    "build-css": "./css-build",
     "lint": "eslint --ext .js,.json .",
     "start-clean": "rm -rf ./public && yarn start-watch",
     "start-watch": "yarn brunch -- watch --server"
@@ -20,8 +19,6 @@
     "eslint-plugin-jsx-a11y": "^5.0.0",
     "eslint-plugin-mocha": "^4.10.1",
     "eslint-plugin-react": "^7.1.0",
-    "nhsuk-bunyan-logger": "^1.4.0",
-    "node-sass": "^4.5.3",
     "normalize-scss": "^7.0.0",
     "sass-brunch": "^2.10.4"
   }

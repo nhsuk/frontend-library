@@ -2,11 +2,33 @@
 
 [![Build Status](https://travis-ci.org/nhsuk/frontend-library.svg?branch=master)](https://travis-ci.org/nhsuk/frontend-library)
 
-Version 2 of the frontend library, application non-specific.
+> Version 2 of the frontend library, application non-specific.
 
-## Working with the repo
+This repo has two main purposes:
+* Generate shareable `css` and `js` assets for use by others
+* Provide a development environment for reviewing changes to those assets
 
-Clone the repo `git clone https://github.com/nhsuk/frontend-library.git` and have a look at the [selection](scripts/README.md) of [scripts](scripts) to get started with running the application.
+In order to achieve these objectives the repo is built on
+[Brunch](http://brunch.io/). Additional information about the decision to use
+Brunch can be found in the [ADR record](./doc/adr/0003-use-brunch.md).
+
+The demo site is available as a [GitHub Pages](https://pages.github.com/) site
+[https://nhsuk.github.io/frontend-library/](https://nhsuk.github.io/frontend-library/).
+The site is updated automatically by [Travis CI](https://travis-ci.org/) via
+[GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/).
+The deployment happens when a change is made to `master`. `master` is a
+protected branch and changes are only able to be applied via a reviewed Pull
+Request.
+
+## Install
+
+* Clone the repo: `git clone https://github.com/nhsuk/frontend-library.git`
+* Install dependencies: `cd frontend-library && ./scripts/bootstrap`
+
+## Usage
+
+* Start the server in development mode: `./scripts/start`
+* View the site in a browser: `open http://localhost:3333`
 
 ## Architecture Decision Records
 

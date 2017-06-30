@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "yarn brunch -- build",
+    "build-production": "yarn brunch -- build --production",
     "lint": "eslint --ext .js,.json .",
     "start-clean": "rm -rf ./public && yarn start-watch",
     "start-watch": "yarn brunch -- watch --server"

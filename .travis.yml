@@ -2,8 +2,8 @@ dist: trusty
 sudo: false
 
 language: node_js
-node_js:
-  - node
+node_js: node
+cache: yarn
 
 before_script:
   - yarn lint

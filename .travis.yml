@@ -10,15 +10,15 @@ before_script:
 script:
   - yarn build-production
 
+before_deploy:
+  zip -x **/*.html -x **/*.md -r $TRAVIS_TAG.zip public/
+
 deploy:
   - provider: releases
     skip_cleanup: true
     api_key:
       secure: idHCmFvd9Clp6urU7ri/fvRJD30vY8quk/LQccPF1FI0Jn4OWw3iULCSWCCZ3Bm443dl7gRHn5HBjv3qlqegDOZV69txFVvNjGVvgIMa2fInYdL5BkeXFzr7JmV46/bk5W2aqgEsXbtL/fIBRqf7CdXdiCMq6QtY2rebyTrd6BZtwC8VsH62vXb5smshkIGIzV5JZavYyRrLf09TZGNgMWnicPlTblIwYDiSJJbe6GjOGtqdAIpLJf/AKM68X+oTWeKM+B2JZVQlAcBfYh1lFR4mnLnDSlBR6erwfJP9d8gemep7y+snlUTFIjr1vzyDl0IIpb9N8iVxOcyc7t9TxisgjsF7N6oY9ka7WMl9JIM8MQbY8tEGIg0/RhAEeikD04JjUc3FkmfTI9ZClX8U2sYtN3bJtM3KOf4IgTZAGUP/CCFxQmSWtQW0EXW/qAjfiDY1FucT/qwxMTy8PxBXv/W5GNFpzrG4glg48601Sxc3nO3YiD52r/QnU7TL5w0mouYchNJap178l0OinzTnkXkAFZEmQ03Kdt9Ns504OWVU9oIPW7VlyOghe8bC4jsKLhTt5eKuhpUK0CHUHbci5GKxVLg3idwwtSNtm0iYx+bLy28I+JYV6Nu+6D5gc0J6Wj6v4H+k2QKGEf92khPdNHPYjKrts7LOJdbQ/lSBfN4=
-    file_glob: true
-    file:
-      - public/*.css
-      - public/images/*
+    file: $TRAVIS_TAG.zip
     on:
       tags: true
   - provider: pages

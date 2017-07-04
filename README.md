@@ -1,5 +1,7 @@
 # NHS.UK Frontend Library (Alpha)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/frontend-library.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/nhsuk/frontend-library.svg?branch=master)](https://travis-ci.org/nhsuk/frontend-library)
 
 > Version 2 of the frontend library, application non-specific.

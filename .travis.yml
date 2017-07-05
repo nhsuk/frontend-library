@@ -4,11 +4,15 @@ language: node_js
 node_js: node
 cache: yarn
 
+before_install: yarn global add greenkeeper-lockfile@1
+
 before_script:
+  - greenkeeper-lockfile-update
   - yarn lint
 
-script:
-  - yarn build-production
+script: yarn build-production
+
+after_script: greenkeeper-lockfile-upload
 
 before_deploy:
   zip -x **/*.html -x **/*.md -r assets-$TRAVIS_TAG.zip public/

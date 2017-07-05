@@ -22,7 +22,7 @@ protected branch and changes are only able to be applied via a reviewed Pull
 Request. The deployment to the GitHub Pages site uploads all artefacts in
 `./public` to the `gh-pages` branch. This is configured in `.travis.yml`.
 
-## Install
+## Installation
 
 * Clone the repo: `git clone https://github.com/nhsuk/frontend-library.git`
 * Install dependencies: `cd frontend-library && ./scripts/bootstrap`
@@ -31,6 +31,18 @@ Request. The deployment to the GitHub Pages site uploads all artefacts in
 
 * Start the server in development mode: `./scripts/start`
 * View the site in a browser: `open http://localhost:3333`
+
+### Using the `scss` directly
+
+If you would prefer to use the raw `scss` rather than the compiled `css` and build it within your own application there are a couple of ways of doing this.
+
+1. Include this repo within your own as a submodule and add the path to the
+   `scss` files to the `includePaths` option for your sass compiler. An example
+   of this can be seen within this repo's [brunch-config.js](brunch-config.js)
+   where the path to `normalize-scss` has been added
+1. Download the raw `scss` assets for this repo, from the releases in
+   [GitHub](https://github.com/nhsuk/frontend-library/releases). The
+   folder to download is `sccs-<release_number>.zip`
 
 ## Architecture Decision Records
 

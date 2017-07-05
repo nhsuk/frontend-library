@@ -14,7 +14,7 @@
     "brunch": "^2.10.9",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
-    "eslint-config-nhsuk": "^0.2.0",
+    "eslint-config-nhsuk": "^0.3.0",
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.0",

@@ -15,8 +15,8 @@ script: yarn build-production
 after_script: greenkeeper-lockfile-upload
 
 before_deploy:
-  zip -x **/*.html -x **/*.md -r assets-$TRAVIS_TAG.zip public/
-  zip -r scss-$TRAVIS_TAG.zip app/styles/
+  - zip -x **/*.html -x **/*.md -r assets-$TRAVIS_TAG.zip public/
+  - zip -r scss-$TRAVIS_TAG.zip app/styles/
 
 deploy:
   - provider: releases

@@ -6,10 +6,11 @@
     "build": "yarn brunch -- build",
     "build-production": "yarn brunch -- build --production",
     "lint": "eslint --ext .js,.json .",
+    "prepush": "yarn snyk test",
     "start-clean": "rm -rf ./public && yarn start-watch",
     "start-watch": "yarn brunch -- watch --server"
   },
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "brunch": "^2.10.9",
     "eslint": "^4.1.1",
@@ -18,7 +19,9 @@
     "eslint-plugin-import": "^2.6.1",
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^4.10.1",
+    "husky": "^0.14.3",
     "normalize-scss": "^7.0.0",
-    "sass-brunch": "^2.10.4"
+    "sass-brunch": "^2.10.4",
+    "snyk": "^1.36.2"
   }
 }

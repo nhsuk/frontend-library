@@ -2,12 +2,7 @@
 @import "../settings/typography";
 
 html,
-body,
-button,
-input,
-table,
-td,
-th {
+html *{
   font-family: $nhs-font-stack;
 }
 

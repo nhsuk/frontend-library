@@ -20,7 +20,9 @@
 @mixin button($colour) {
   @include bold-font(20);
   -webkit-font-smoothing: antialiased;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: $colour;
   border: 0;
   box-shadow: 0 2px 0 darken($colour, 15%);

@@ -11,10 +11,6 @@ module.exports = {
     },
   },
   plugins: {
-    sass: {
-      options: {
-        includePaths: ['node_modules/normalize-scss/sass']
-      }
-    }
+    sass: {}
   }
 };

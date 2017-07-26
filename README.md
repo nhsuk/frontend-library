@@ -38,9 +38,7 @@ Request. The deployment to the GitHub Pages site uploads all artefacts in
 If you would prefer to use the raw `scss` rather than the compiled `css` and build it within your own application there are a couple of ways of doing this.
 
 1. Include this repo within your own as a submodule and add the path to the
-   `scss` files to the `includePaths` option for your sass compiler. An example
-   of this can be seen within this repo's [brunch-config.js](brunch-config.js)
-   where the path to `normalize-scss` has been added
+   `scss` files to the `includePaths` option for your sass compiler.
 1. Download the raw `scss` assets for this repo, from the releases in
    [GitHub](https://github.com/nhsuk/frontend-library/releases). The
    folder to download is `sccs-<release_number>.zip`

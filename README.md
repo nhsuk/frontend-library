@@ -1,5 +1,6 @@
 # NHS.UK Frontend Library (Alpha)
 
+[![GitHub Release](https://img.shields.io/github/release/nhsuk/frontend-library.svg)](https://github.com/nhsuk/frontend-library/releases/latest/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/frontend-library.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/nhsuk/frontend-library.svg?branch=master)](https://travis-ci.org/nhsuk/frontend-library)
 [![Known Vulnerabilities](https://snyk.io/test/github/nhsuk/frontend-library/badge.svg)](https://snyk.io/test/github/nhsuk/frontend-library)

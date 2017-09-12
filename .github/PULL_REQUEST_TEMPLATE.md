@@ -29,6 +29,7 @@ Provide a general summary of your changes in the Title
 - [ ] An [ADR](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)
 - [ ] An example added to [index.html](../app/assets/index.html)
 - [ ] New and/or updated tests
+- [ ] Changes added to [CHANGELOG.md](../CHANGELOG.md)
 - [ ] Successful linting of the project assets
 - [ ] The inclusion of new assets in the build artefacts
 - [ ] The inclusion of new assets in the release artefacts uploaded to GitHub

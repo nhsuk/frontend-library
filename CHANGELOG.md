@@ -1,3 +1,7 @@
+0.7.0 / 2017-11-13
+==================
+- Update link to latest font version
+
 0.6.0 / 2017-09-07
 ==================
 - Update dependencies to latest version

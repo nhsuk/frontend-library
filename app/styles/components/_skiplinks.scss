@@ -1,5 +1,9 @@
 @import "../environment/settings/colours";
 
+.hidden {
+  @include visuallyhidden;
+}
+
 .skiplinks {
   background-color: $blue-10;
 }

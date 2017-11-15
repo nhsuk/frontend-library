@@ -1,0 +1,32 @@
+.breadcrumb {
+  @include site-width-container;
+  background-color: $blue-10;
+  margin-bottom: 1em;
+
+  a {
+    font-size: inherit;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color:#005EB8;
+  }
+
+  ul, ol {
+    padding: 6px 15px;
+    li {
+      margin: 0px;
+      font-size: 16px;
+      display: inline-block;
+
+      &:after {
+        content: '\00A0\00A0\203A'; //Two NBSP and one right chevron
+        color: $grey-3;
+      }
+    }
+  }
+
+  &__last:after {
+    content: none !important;
+  }
+}

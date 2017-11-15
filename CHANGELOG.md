@@ -1,3 +1,7 @@
+0.7.1 / 2017-11-15
+==================
+- Remove empty line from scss file
+
 0.7.0 / 2017-11-13
 ==================
 - Update link to latest font version

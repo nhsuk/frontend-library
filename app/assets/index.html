@@ -41,15 +41,127 @@
       </p>
     </div>
 
-    <header role="banner">
-      <div class="global-header">
-        <div class="global-header__inner">
-          <a href="./" class="global-header__link">
-            <img src="images/logotype-nhs-mono.png" alt="NHS">
+    <header class="site-header">
+      <div class="site-header__top">
+        <div class="site-header__brand">
+          <!-- noindex -->
+          <a href="/">
+            <img
+              src="images/choices-logo.png" srcset="
+                  images/choices-logo.png 1x,
+                  images/choices-logo@2x.png 2x,
+                  images/choices-logo@3x.png 3x,"
+              class="nhs-choices-logo"
+            />
           </a>
-
+          <span class="site-header__tagline">Your health, your choices</span>
         </div>
+
+        <div class="site-header__controls">
+          <div class="site-header__user-links user-links">
+            <a class="user-links__translate" href="http://www.nhs.uk/pages/languagehub.aspx">Translate</a>
+            <span class="user-links__right-align">
+              <a class="user-links__account" href="https://www.nhs.uk/Personalisation/MyNHSChoices.aspx">User Accounts</a>
+            </span>
+          </div>
+          <div id="search" class="site-header__search search">
+            <form id="gs" method="get" action="https://www.nhs.uk/Search/">
+              <input name="q" class="search__input" type="text" placeholder="Search" />
+              <div class="search__button icon-Search">
+                <input type="submit" value=""/>
+              </div>
+            </form>
+          </div>
+          <div id="menu-icon" class="site-header__menu-icon menu-icon">
+              <a id="main-nav-toggle" class="menu-icon__link" href="#">Menu</a>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
       </div>
+
+      <nav id="main-nav" class="site-header__nav main-nav main-nav">
+
+        <div id="main-nav-items" class="main-nav__items">
+          <ul class="main-nav__page-menu">
+            <li class="">
+              <a href="#">Lorem Ipsum</a>
+              <ul>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#">Lorem Ipsum</a>
+              <ul>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#">Lorem Ipsum</a>
+              <ul>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#">Lorem Ipsum</a>
+              <ul>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#">Lorem Ipsum</a>
+              <ul>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+                <li class="">
+                  <a href="#">Lorem ipsum dolor<span class="hidden"> Latin</span></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="main-nav__account-menu account-menu">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Create an account</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- endnoindex -->
     </header>
 
     <main id="content" role="main">
@@ -219,24 +331,37 @@
     </div>
     </main>
 
-    <footer role="contentinfo">
-      <div class="global-footer">
-        <div class="global-footer__inner">
-          <div>
-
-            <h2 class="util-visuallyhidden">Support links</h2>
-            <ul class="link-list">
+    <footer class="footer" role="contentinfo">
+      <div class="footer__main-links">
+          <div class="footer__content">
+            <ul>
               <li>
-                <a href="https://beta.nhs.uk/help/clinical-assurance">Clinical assurance</a>
+                <a href="/">
+                  <img class="footer__logo" src="images/nhs-logo.png" srcset="
+                      images/nhs-logo.png 1x,
+                      images/nhs-logo@2x.png 2x,
+                      images/nhs-logo@3x.png 3x,"
+                  />
+                </a>
               </li>
-              <li>
-                <a href="https://beta.nhs.uk/help/cookies">Cookies</a>
-              </li>
+              <li><a href="http://www.nhs.uk/Pages/nhs-sites.aspx">NHS sites</a></li>
+              <li><a href="http://www.nhs.uk/Pages/about-us.aspx">About us</a></li>
+              <li><a href="http://www.nhs.uk/Pages/contact-us.aspx">Contact us</a></li>
             </ul>
-
+            </ul>
           </div>
         </div>
-      </div>
+
+        <div class="footer__utility-links">
+          <div class="footer__content">
+            <ul>
+              <li><a href="http://www.nhs.uk/choices/pages/sitemap.aspx">Sitemap</a></li>
+              <li><a href="http://www.nhs.uk/aboutnhschoices/aboutnhschoices/accessibility/pages/accessibilitystatement.aspx">Accessibility</a></li>
+              <li><a href="http://www.nhs.uk/Pages/site-policies.aspx">Our policies</a></li>
+              <li>&copy; Crown Copyright</li>
+            </ul>
+          </div>
+        </div>
     </footer>
 
   </body>

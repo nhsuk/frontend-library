@@ -1,3 +1,7 @@
+0.8.0 / 2017-11-xx
+==================
+- Add NHS-icon fonts
+
 0.7.1 / 2017-11-15
 ==================
 - Remove empty line from scss file

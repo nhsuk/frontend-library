@@ -5,7 +5,7 @@ ignore: {}
 patch:
   'npm:debug:20170905':
     - node-pre-gyp > tar-pack > debug:
-        patched: '2017-11-13T14:44:40.831Z'
+        patched: '2017-12-04T12:29:51.702Z'
   'npm:tough-cookie:20170905':
     - node-pre-gyp > request > tough-cookie:
-        patched: '2017-11-13T14:44:40.831Z'
+        patched: '2017-12-04T12:29:51.702Z'

@@ -8,9 +8,13 @@
     "lint": "eslint --ext .js,.json .",
     "prepush": "yarn snyk test",
     "start-clean": "rm -rf ./public && yarn start-watch",
-    "start-watch": "yarn brunch -- watch --server"
+    "start-watch": "yarn brunch -- watch --server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.40.2"
+  },
   "devDependencies": {
     "brunch": "^2.10.10",
     "eslint": "^4.6.1",
@@ -20,7 +24,7 @@
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^4.10.1",
     "husky": "^0.14.3",
-    "sass-brunch": "^2.10.4",
-    "snyk": "^1.40.2"
-  }
+    "sass-brunch": "^2.10.4"
+  },
+  "snyk": true
 }

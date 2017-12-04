@@ -44,6 +44,10 @@ If you would prefer to use the raw `scss` rather than the compiled `css` and bui
    [GitHub](https://github.com/nhsuk/frontend-library/releases). The
    folder to download is `sccs-<release_number>.zip`
 
+## NHS icons
+
+There are three [NHS Icons](https://nhsuk.github.io/frontend-library/#nhs-icons) available
+
 ## Architecture Decision Records
 
 This repo uses

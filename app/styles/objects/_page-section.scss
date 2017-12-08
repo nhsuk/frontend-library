@@ -8,12 +8,6 @@
   + .page-section {
     padding-top: 0;
   }
-
-  // the lobotomized owl
-  // see: http://alistapart.com/article/axiomatic-css-and-lobotomized-owls
-  * + * {
-    @include element-spacing;
-  }
 }
 
 .page-section--collapse-bottom {

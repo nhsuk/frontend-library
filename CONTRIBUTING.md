@@ -6,7 +6,7 @@ read through this guide in order to make the process as easy as possible.
 ## Getting started
 
 The first thing you want to do is review the guidance within the
-[PULL_REQUEST_TEMPLATE](./github/PULL_REQUEST_TEMPLATE.md). This will ensure
+[PULL_REQUEST_TEMPLATE](./.github/PULL_REQUEST_TEMPLATE.md). This will ensure
 there is an issue already created, providing visibility to others working on
 the project about what the change might entail and what impact that could have.
 

@@ -54,6 +54,17 @@ the following guidance is the same.
 - Clarity and verbosity is favoured over terseness e.g. do not use single
   character variable names instead use short but descriptive names
 
+## Conventions
+
+### BEM
+
+Although the library did not start off using a formal styling conventions as the
+project progressed it was decided that one would be a good idea to ensure consistency.
+[BEM](http://getbem.com/introduction/) was chosen and any new work should conform to
+this convention.  **Note** if working on an existing style that does not conform to BEM
+it is prefered to leave it as it is in an attempt to minimize the breaking changes we
+introduce.
+
 ## Testing
 
 - Where tests already exist, they should be extended to cover any additional

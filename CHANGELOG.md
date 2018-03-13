@@ -1,3 +1,8 @@
+0.9.0 / 2018-03-13
+==================
+- Update dependencies to latest version
+- Improve `README`
+
 0.8.0 / 2017-12-06
 ==================
 - Add NHS Icons font

@@ -1,3 +1,7 @@
+0.10.0 / 2018-03-15
+==================
+- Update to `eslint-config-nhsuk@0.13.0` with fixes
+
 0.9.0 / 2018-03-13
 ==================
 - Update dependencies to latest version

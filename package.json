@@ -1,6 +1,6 @@
 {
   "name": "frontend-library",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
   "scripts": {
     "build": "yarn brunch -- build",
@@ -10,12 +10,13 @@
     "start-clean": "rm -rf ./public && yarn start-watch",
     "start-watch": "yarn brunch -- watch --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-config-nhsuk": "^0.13.0"
+  },
   "devDependencies": {
     "brunch": "^2.10.10",
     "eslint": "^4.6.1",
     "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-config-nhsuk": "^0.10.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^4.10.1",

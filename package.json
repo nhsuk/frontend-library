@@ -11,7 +11,7 @@
     "start-watch": "yarn brunch -- watch --server"
   },
   "dependencies": {
-    "eslint-config-nhsuk": "^0.13.0"
+    "eslint-config-nhsuk": "^0.14.0"
   },
   "devDependencies": {
     "brunch": "^2.10.10",

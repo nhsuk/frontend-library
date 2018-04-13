@@ -1,6 +1,6 @@
 {
   "name": "frontend-library",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "private": true,
   "scripts": {
     "build": "yarn brunch -- build",
@@ -11,7 +11,7 @@
     "start-watch": "yarn brunch -- watch --server"
   },
   "dependencies": {
-    "eslint-config-nhsuk": "^0.13.0"
+    "eslint-config-nhsuk": "^0.14.0"
   },
   "devDependencies": {
     "brunch": "^2.10.10",

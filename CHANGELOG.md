@@ -1,3 +1,7 @@
+0.12.0 / 2018-04-13
+==================
+- Update npm dependencies
+
 0.11.0 / 2018-04-13
 ==================
 - Update npm dependencies

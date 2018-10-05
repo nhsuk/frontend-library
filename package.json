@@ -20,7 +20,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-mocha": "^5.0.0",
-    "husky": "^0.14.3",
+    "husky": "^1.1.1",
     "sass-brunch": "^2.10.4"
   }
 }

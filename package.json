@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "brunch": "^2.10.10",
-    "eslint": "^4.6.1",
+    "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-json": "^1.2.0",

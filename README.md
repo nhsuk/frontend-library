@@ -1,4 +1,6 @@
-# NHS.UK Frontend Library (Alpha)
+# DEPRECATED - NHS.UK Frontend Library
+
+:warning: This repository has been deprecated and is now read only. Please use https://github.com/nhsuk/nhsuk-frontend
 
 [![GitHub Release](https://img.shields.io/github/release/nhsuk/frontend-library.svg)](https://github.com/nhsuk/frontend-library/releases/latest/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/nhsuk/frontend-library.svg)](https://greenkeeper.io/)

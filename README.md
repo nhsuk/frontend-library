@@ -1,4 +1,4 @@
-# DEPRECATED - NHS.UK Frontend Library
+# DEPRECATED - Alpha frontend library
 
  :warning: This repository has been deprecated and is now read only. Please use https://github.com/nhsuk/nhsuk-frontend
 
